@@ -105,6 +105,7 @@ Here are some key terms and commands you'll use throughout your data science jou
 ## 🎉 **Hands-on Practice**
 
 To get started with today's hands-on session, open your Google Colab notebook and follow the instructions provided in the comments of each code cell. Use the cheat sheets provided to guide you through writing and executing the code. This practice will help you solidify your understanding of data preprocessing, feature selection, encoding, and other key concepts. Dive in and start coding! 🚀
+
 ---
 
 ## 🙋 **Q&A**
