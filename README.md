@@ -1,4 +1,4 @@
-🚀 **Introduction to Data Science Workshop**
+# 🚀 **Introduction to Data Science Workshop**
 
 Welcome to the **Introduction to Data Science Workshop**! In this 60-minute session, we will explore the exciting world of data science, covering essential concepts and popular Python libraries like `Numpy`, `Pandas`, `Matplotlib`, and `Seaborn` along with hands on practice.
 
