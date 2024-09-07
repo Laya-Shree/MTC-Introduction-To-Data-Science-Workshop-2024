@@ -212,7 +212,7 @@ x_scaled = scaler.fit_transform(df.drop(['Target_column'], axis=1))
 
 This scales the features so that they have a mean of 0 and a standard deviation of 1, which improves the performance of machine learning models by normalizing the range of data.
 
----
+
 
 With these steps, you'll be able to handle missing values, encode categorical data, and normalize your features effectively, preparing your data for machine learning models.
 
