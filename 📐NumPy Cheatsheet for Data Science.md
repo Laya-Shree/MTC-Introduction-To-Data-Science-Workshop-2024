@@ -1,4 +1,4 @@
-# 🔢NumPy Cheatsheet for Data Science
+# 📐NumPy Cheatsheet for Data Science
 
 ## Importing NumPy
 
