@@ -51,10 +51,10 @@ Python is the leading programming language in data science due to its simplicity
 
 | Library | Usage |
 | --- | --- |
-| **Numpy** | Numerical computations |
-| **Pandas** | Data manipulation and analysis |
-| **Matplotlib** | Data visualization |
-| **Seaborn** | Statistical data visualization |
+| 📐**Numpy** | Numerical computations |
+| 🧮**Pandas** | Data manipulation and analysis |
+| 📈**Matplotlib** | Data visualization |
+| 📊**Seaborn** | Statistical data visualization |
 
 ```python
 # Installing Libraries
@@ -73,7 +73,7 @@ import seaborn as sns
 
 ---
 
-## 📐 **3. Introduction to Numpy**
+## 📐**3. Numpy**
 
 `Numpy` is the foundation for numerical operations in Python.
 
@@ -82,23 +82,9 @@ import seaborn as sns
 - **Numpy Arrays**: Efficient arrays for storing numerical data.
 - **Operations**: Mathematical operations like sum, mean, reshape, and indexing.
 
-#### Example Code:
 
-```python
-import numpy as np
 
-# Creating a Numpy Array
-arr = np.array([1, 2, 3, 4, 5])
-print("Array:", arr)
-
-# Reshaping an Array
-reshaped_arr = arr.reshape((1, 5))
-print("Reshaped Array:", reshaped_arr)
-```
-
----
-
-## 🧮 **4. Introduction to Pandas**
+## 🧮**4. Pandas**
 
 `Pandas` is the go-to library for data manipulation and analysis. It introduces powerful data structures like **DataFrames**.
 
@@ -107,62 +93,19 @@ print("Reshaped Array:", reshaped_arr)
 - **DataFrames**: 2D labeled data structures (similar to Excel tables).
 - **Data Manipulation**: Filtering, sorting, aggregating, and handling missing values.
 
-#### Example Code:
 
-```python
-import pandas as pd
 
-# Load a CSV file
-df = pd.read_csv('data.csv')
-
-# Basic DataFrame operations
-print(df.head())  # First 5 rows
-print(df.describe())  # Summary statistics
-
-# Filtering Data
-filtered_df = df[df['age'] > 30]
-print(filtered_df)
-```
-
----
-
-## 📈 **5. Introduction to Matplotlib and Seaborn**
+##  **5. Matplotlib and Seaborn**
 
 `Matplotlib` and `Seaborn` are essential for creating insightful data visualizations.
 
 ### **Matplotlib**: General-purpose plotting library
 
-#### Example Code:
 
-```python
-import matplotlib.pyplot as plt
-
-# Basic Line Plot
-x = [0, 1, 2, 3]
-y = [0, 1, 4, 9]
-plt.plot(x, y)
-plt.title("Simple Line Plot")
-plt.xlabel("X-Axis")
-plt.ylabel("Y-Axis")
-plt.show()
-```
 
 ### **Seaborn**: High-level interface for attractive visualizations
 
-#### Example Code:
 
-```python
-import seaborn as sns
-import pandas as pd
-
-# Load the famous Titanic dataset
-titanic = sns.load_dataset("titanic")
-
-# Create a simple Seaborn bar plot
-sns.barplot(x="sex", y="survived", data=titanic)
-plt.title("Survival Rate by Gender")
-plt.show()
-```
 
 ---
 
