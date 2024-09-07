@@ -73,68 +73,38 @@ import seaborn as sns
 
 ---
 
-## 📐**3. Numpy**
-
-`Numpy` is the foundation for numerical operations in Python.
-
-### Key Concepts:
-
-- **Numpy Arrays**: Efficient arrays for storing numerical data.
-- **Operations**: Mathematical operations like sum, mean, reshape, and indexing.
-
-
-
-## 🧮**4. Pandas**
-
-`Pandas` is the go-to library for data manipulation and analysis. It introduces powerful data structures like **DataFrames**.
-
-### Key Concepts:
-
-- **DataFrames**: 2D labeled data structures (similar to Excel tables).
-- **Data Manipulation**: Filtering, sorting, aggregating, and handling missing values.
-
-
-
-##  **5. Matplotlib and Seaborn**
-
-`Matplotlib` and `Seaborn` are essential for creating insightful data visualizations.
-
-### **Matplotlib**: General-purpose plotting library
-
-
-
-### **Seaborn**: High-level interface for attractive visualizations
-
-
-
----
-
 ## 📚 **Cheat Sheet and Glossary**
 
 Here are some key terms and commands you'll use throughout your data science journey.
-
 ### 📝 **Cheat Sheet:**
 
----
+- [🐼 Pandas Cheatsheet for Data Science](./🐼Pandas%20Cheatsheet%20for%20Data%20Science.md)
+- [📐 NumPy Cheatsheet for Data Science](./📐NumPy%20Cheatsheet%20for%20Data%20Science.md)
+- [📈 Matplotlib Cheatsheet for Data Science](./📈Matplotlib%20Cheatsheet%20for%20Data%20Science.md)
+- [📊 Seaborn Cheatsheet for Data Science](./📊Seaborn%20Cheatsheet%20for%20Data%20Science.md)
 
 ## 🔑 **Glossary of Terms**
 
-- **Array**: A data structure that holds a fixed number of elements of a single type.
-- **DataFrame**: A 2-dimensional labeled data structure with columns of potentially different types.
-- **Visualization**: The representation of data in a graphical format.
-- **Aggregation**: A computation that summarizes groups of data (e.g., sum, average).
-- **Missing Data**: Occurs when no data value is stored for a variable in a dataset.
-
+1. **Array**: A data structure that stores elements of the same type in a fixed size.  
+2. **DataFrame**: A 2D labeled data structure with rows and columns, used for data manipulation in pandas.  
+3. **Data Cleaning**: The process of correcting or removing inaccurate data points to ensure data quality.  
+4. **Missing Data**: Absence of a data value for a variable in a dataset, handled through deletion or imputation.  
+5. **Data Preprocessing**: Transforming raw data into a clean and usable format for analysis or modeling.  
+6. **Features**: The measurable properties or characteristics of data used as input in machine learning models.  
+7. **Feature Selection**: The process of selecting the most important variables to use in model building.  
+8. **Feature Encoding**: Converting categorical variables into numerical form for machine learning models.  
+9. **One-Hot Encoding**: A method to convert categorical variables into binary vectors for each unique category.  
+10. **Label Encoding**: Assigning numerical values to categorical labels in a dataset.  
+11. **Normalization**: Scaling data to ensure consistency across the feature's range of values.  
+12. **StandardScaler**: A tool to standardize features by removing the mean and scaling to unit variance.  
+13. **Outliers**: Data points that deviate significantly from other observations in the dataset.  
+14. **Exploratory Analysis**: Analyzing data sets to summarize their main characteristics, often using visualizations.  
+15. **Target**: The variable or outcome that a model aims to predict, also called the dependent variable.
 ---
 
 ## 🎉 **Hands-on Practice**
 
-Try the following tasks:
-
-1. Load a dataset into Pandas.
-2. Visualize the data using Matplotlib or Seaborn.
-3. Apply basic data manipulations using Pandas (`filter`, `groupby`, `aggregate`).
-
+To get started with today's hands-on session, open your Google Colab notebook and follow the instructions provided in the comments of each code cell. Use the cheat sheets provided to guide you through writing and executing the code. This practice will help you solidify your understanding of data preprocessing, feature selection, encoding, and other key concepts. Dive in and start coding! 🚀
 ---
 
 ## 🙋 **Q&A**
